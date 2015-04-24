@@ -17,9 +17,12 @@ class Login    < Baseclass
 
 
 def  log_in_as_registered_user
-  self.user_email = 'hub_admin@fco.dev'
-  self.user_password = 'n74J994e8784F27m74244Cq6243xJu'
+  self.user_email = USERS['NIGHTLY_EMAIL']
+  self.user_password = USERS['NIGHTLY_PASSWORD']
   login
+  #response =  HTTParty.get('http://contactcentre.nightly.fco.clients.wtg.co.uk/users/login')
+  #
+  #puts response
 end
 
 end
