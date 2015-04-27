@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831b9b76-afdb-4b99-82e9-ea184051f376" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/support/users.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/features/step_definiitons/homepage_step.rb" afterPath="$PROJECT_DIR$/features/step_definitions/homepage_step.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/features/step_definiitons/login_step.rb" afterPath="$PROJECT_DIR$/features/step_definitions/login_step.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/features/step_definitions/my_steps.rb" afterPath="$PROJECT_DIR$/features/support/httpary_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/features/support/env.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/homepage.feature" afterPath="$PROJECT_DIR$/features/homepage.feature" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/features/support/httpary_test.rb" afterPath="$PROJECT_DIR$/lib/services/httparty_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pages/homepage.rb" afterPath="$PROJECT_DIR$/lib/pages/homepage.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/hooks.rb" afterPath="$PROJECT_DIR$/features/support/hooks.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pages/login.rb" afterPath="$PROJECT_DIR$/lib/pages/login.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/site.rb" afterPath="$PROJECT_DIR$/features/support/site.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/voltaire_eight.iml" afterPath="$PROJECT_DIR$/.idea/voltaire_eight.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="voltaire_eight.iws" />
@@ -42,7 +30,80 @@
     <favorites_list name="voltaire_eight" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="httparty_test.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/services/httparty_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="0.16561514" vertical-offset="0" max-vertical-offset="634">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_step.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/login_step.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="39" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homepage.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/pages/homepage.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="92" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/pages/login.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="2" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/site.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="51" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_class.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/base_class.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="54" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1365">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="env.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="29" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homepage.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/homepage.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="39" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -62,20 +123,21 @@
         <option value="$PROJECT_DIR$/lib/site.rb" />
         <option value="$PROJECT_DIR$/lib/base_class.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/my_steps.rb" />
-        <option value="$PROJECT_DIR$/features/support/site.rb" />
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/features/support/users.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/step_definiitons/homepage_step.rb" />
-        <option value="$PROJECT_DIR$/lib/pages/login.rb" />
         <option value="$PROJECT_DIR$/features/enquiry_form.feature" />
         <option value="$PROJECT_DIR$/features/step_definiitons/login_step.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/homepage_step.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/login_step.rb" />
-        <option value="$PROJECT_DIR$/features/support/env.rb" />
-        <option value="$PROJECT_DIR$/features/support/httpary_test.rb" />
         <option value="$PROJECT_DIR$/features/homepage.feature" />
+        <option value="$PROJECT_DIR$/features/support/httpary_test.rb" />
         <option value="$PROJECT_DIR$/lib/pages/homepage.rb" />
+        <option value="$PROJECT_DIR$/features/support/site.rb" />
+        <option value="$PROJECT_DIR$/features/support/env.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/login_step.rb" />
+        <option value="$PROJECT_DIR$/lib/services/httparty_test.rb" />
+        <option value="$PROJECT_DIR$/lib/pages/login.rb" />
       </list>
     </option>
   </component>
@@ -140,6 +202,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voltaire_eight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voltaire_eight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -226,6 +306,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/services" />
       <recent name="$PROJECT_DIR$/features/step_definitions" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/pages" />
@@ -446,6 +527,11 @@
       <created>1429605143673</created>
       <updated>1429605143673</updated>
     </task>
+    <task id="LOCAL-00001" summary="some changes to framework">
+      <created>1429889890473</created>
+      <updated>1429889890473</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -457,13 +543,14 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15679078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21866806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
@@ -479,11 +566,20 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="some changes to framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes to framework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/pages/login.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="20" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/login_step.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
@@ -493,9 +589,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
-          <folding />
-        </state>
+        <state line="2" column="1" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/env.rb">
@@ -556,9 +650,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
-          <folding />
-        </state>
+        <state line="2" column="1" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/env.rb">
@@ -619,9 +711,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="45" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="135">
-          <folding />
-        </state>
+        <state line="2" column="45" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="135" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/env.rb">
@@ -740,13 +830,6 @@
         <state line="455" column="8" selection-start="12695" selection-end="12695" vertical-scroll-proportion="0.33280757" vertical-offset="6614" max-vertical-offset="16980" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/base_class.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="54" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1365">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/homepage_step.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="4" selection-start="29" selection-end="29" vertical-scroll-proportion="0.04731861" vertical-offset="0" max-vertical-offset="634">
@@ -754,72 +837,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/login_step.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="39" selection-start="138" selection-end="138" vertical-scroll-proportion="0.09463722" vertical-offset="0" max-vertical-offset="634">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="83" selection-start="281" selection-end="281" vertical-scroll-proportion="0.23659305" vertical-offset="0" max-vertical-offset="634">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="90" selection-start="297" selection-end="297" vertical-scroll-proportion="0.23659305" vertical-offset="0" max-vertical-offset="634">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/httpary_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="2" selection-start="190" selection-end="190" vertical-scroll-proportion="0.26025236" vertical-offset="0" max-vertical-offset="634">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/site.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="105" selection-start="298" selection-end="298" vertical-scroll-proportion="0.49684542" vertical-offset="0" max-vertical-offset="634">
-          <folding />
-        </state>
+        <state line="10" column="90" selection-start="297" selection-end="297" vertical-scroll-proportion="0.23659305" vertical-offset="0" max-vertical-offset="634" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/users.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="54" selection-end="54" vertical-scroll-proportion="0.023659306" vertical-offset="0" max-vertical-offset="634">
-          <folding />
-        </state>
+        <state line="1" column="19" selection-start="54" selection-end="54" vertical-scroll-proportion="0.023659306" vertical-offset="0" max-vertical-offset="634" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/login.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="89" selection-end="89" vertical-scroll-proportion="0.09463722" vertical-offset="0" max-vertical-offset="634">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/homepage.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.33123028" vertical-offset="0" max-vertical-offset="634">
+        <state line="10" column="13" selection-start="183" selection-end="183" vertical-scroll-proportion="0.23659305" vertical-offset="0" max-vertical-offset="634">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/homepage.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="36" selection-end="36" vertical-scroll-proportion="0.023659306" vertical-offset="0" max-vertical-offset="634">
+        <state line="4" column="39" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="183" selection-end="183" vertical-scroll-proportion="0.23659305" vertical-offset="0" max-vertical-offset="634">
+        <state line="8" column="29" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/site.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="51" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/base_class.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="54" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/login_step.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="39" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/login.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="2" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/homepage.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="92" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/services/httparty_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="0.16561514" vertical-offset="0" max-vertical-offset="634">
           <folding />
         </state>
       </provider>

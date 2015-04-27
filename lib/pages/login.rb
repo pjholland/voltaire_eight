@@ -1,8 +1,10 @@
 require_relative "../../lib/base_class"
+require_relative "../../lib/services/httparty_test"
 
 class Login    < Baseclass
 
-  include PageObject
+  include PageObject, HTTParty
+
 
 
   text_field(:user_email,              :id         => 'UserEmail')
@@ -20,9 +22,7 @@ def  log_in_as_registered_user
   self.user_email = USERS['NIGHTLY_EMAIL']
   self.user_password = USERS['NIGHTLY_PASSWORD']
   login
-  #response =  HTTParty.get('http://contactcentre.nightly.fco.clients.wtg.co.uk/users/login')
-  #
-  #puts response
+  HTTPartyTest::test_it
 end
 
 end

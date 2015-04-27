@@ -2,7 +2,7 @@ require_relative "../../lib/base_class"
 
 class Homepage < Baseclass
 
-  include PageObject
+  include PageObject, HTTParty
 
 
   link(:map_link,                      :class      => 'map-link')
